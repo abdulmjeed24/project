@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="keywords" content="text,keywords,javascript">
+    <title>Document</title>
+    <style>
+        
+    </style>
+</head>
+<body>
+    <!-- skjhd -->
+    kldfkjd
+    <h1>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Necessitatibus temporibus explicabo reiciendis excepturi recusandae, accusamus ratione est harum repellendus ad dolor aliquam architecto fugit quis deleniti neque laboriosam. Esse, iusto.</h1>
+<hr>
+&copy;2023
+
+
+<pre>
+  Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iure a debitis praesentium, accusantium quam ad. Ipsa fuga inventore magnam nisi repudiandae hic, sed excepturi modi doloremque cupiditate nesciunt, libero doloribus?
+</pre>
+    <a href="https://google.com">google</a>
+    <span class="primary-text">djks</span>
+    <span>dskj</span>
+    <!--  -->
+    <details close>
+        <summary>what is go?</summary>
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cum ab corrupti doloremque, iste exercitationem at quae amet voluptate voluptatem sapiente. Nemo, quisquam facilis labore fuga reiciendis consequuntur possimus repellendus adipisci?
+    </details>
+
+<h2>HTML Table</h2>
+
+<input type="color" id="colorit" onchange="setColor()"/>
+<div class="div1">
+    <input type="text" name="" id="colo">
+ 
+</div>
+
+<script>
+
+$(".div1").localStorage.getItem('bgcolor') ;
+ var ClassName;
+
+function setColor() {
+  //localStorage.setItem('background', $('#colorit').val());
+  ClassName = $('#colorit').val();
+  $('#colo').val('ClassName');
+  $('.div1').css('background-color', ClassName);
+   localStorage.setItem('bgcolor', 'ClassName');
+}
+
+function getColor() {
+  //localStorage.getItem('background');
+  $('#colorit').val(ClassName);
+ localStorage.getItem('bgcolor') ;
+}
+
+setColor();
+
+</script>
+
+</body>
+</html>
